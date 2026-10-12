@@ -63,7 +63,7 @@ body {
     font-style: normal;
     color: #1d1d1b;
     font-size: 1.2rem;
-    background-color: #97c8e3;
+    background-color: #000000;
 }
 
 img {
@@ -118,7 +118,7 @@ header {
 }
 
 header h1 {
-    color: var(--dark-text);
+    color: #fcfcf5;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -160,7 +160,7 @@ header {
 .icon {
     display: none;
     position: absolute;
-    top: .5rem;
+    top: .2rem;
     right: 1rem;
     background: none;
     border: none;
@@ -189,14 +189,14 @@ header {
     .topnav.responsive {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 0.7rem;
+        gap: 4rem;
         position: absolute;
         top: 0;
         right: 0;
-        width: 40vw;
+        width: 15vw;
         margin-top: 0;
         padding: 6rem 2rem 4rem 2rem;
-        background-color: beige;
+        background-color: #C41D25;
     }
 
     .topnav.responsive a {
@@ -224,13 +224,10 @@ header {
 
 .intro-banner{
     background-color: #000000;
-    padding: 2rem 4rem;
+    padding: 0.1rem 4rem;
     border-bottom: 1.5rem #C41D25 solid;
 }
 
-.intro-banner img {
-
-}
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
   
@@ -242,6 +239,7 @@ header {
     display: flex;
     border-top: 5px #000000 solid;
     border-bottom: 5px #000000 solid;
+    height: 200px;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
