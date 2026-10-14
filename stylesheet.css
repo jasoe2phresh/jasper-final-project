@@ -493,6 +493,23 @@ header {
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
   
+    011.  VIDEOS
+  
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+.videos {
+    background-color: #ba333a;
+}
+
+.two-column-vids {
+    display: flex;
+    justify-content: space-evenly;
+}
+.two-column-text {
+    display: flex;
+    justify-content: space-evenly;}
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  
     011.  CONTACT FORM
   
     = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
