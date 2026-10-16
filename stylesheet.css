@@ -32,12 +32,12 @@
     --light-text: #fcfcfa;
     --cream-text: #f6ead0;
     --medium-dark-text: #055723;
-    --main-background: #F2C230;
+    --main-background: #f;
     --header-background: #F2E5A2;
-    --intro-background: #F29F05;
+    --intro-background: #C41D25;
     --dark-background: #002F15;
     --portrait-background: #e06c10;
-    --landscape-background: #F23A29;
+    --landscape-background: #C41D25;
     --dark-border-colour: #08331c;
     --button-colour: #402320;
     --dark-green: #13632e;
@@ -505,9 +505,23 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-.two-column-text {
+
+
+.two-column-items {
     display: flex;
-    justify-content: space-evenly;}
+    border-top: 5px #000000 solid;
+    border-bottom: 5px #000000 solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #C41D25;
+    padding: 1.5rem;
+}
+
+.frontwhitedung {
+    width: 500px;
+    height: 500px;
+}
+
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
   
     011.  CONTACT FORM
