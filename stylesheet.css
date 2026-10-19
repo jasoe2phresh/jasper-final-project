@@ -42,7 +42,7 @@
     --button-colour: #402320;
     --dark-green: #13632e;
     --slide-out-menu-background: rgba(233, 240, 234, 0.93);
-    --footer-background: #73645C;
+    --footer-background: #c41d25;
     --off-white: #fcfcf5;
     --description-text: #8c8e8d;
     --description-text-colour: #fcfcfa;
@@ -261,7 +261,7 @@ header {
 /* This 'portrait' class is a container for the text and images */
 .portrait {
     text-align: center;
-    background-color: var(--portrait-background);
+    background-color: #ba333a;
     border-radius: .4rem;
     padding: 2rem 2rem 1.4rem 2rem;
     transition: box-shadow .3s;
@@ -411,7 +411,7 @@ header {
 
 .single-item__image {
     grid-area: single-item__image;
-    width: 100%;
+    width: 40%;
     max-width: 800px;
 }
 
@@ -500,7 +500,9 @@ header {
 .videos {
     background-color: #ba333a;
 }
-
+.more-button {
+    rotate: "mORE" 90;
+}
 .two-column-vids {
     display: flex;
     justify-content: space-evenly;
